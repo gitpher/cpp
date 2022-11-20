@@ -14,5 +14,11 @@ int main() {
     cout << "a % b = " << a % b << endl;
 
 
+    int c, d, e;
+    c = d = e = 7;
+
+    cout << "c, d, e = " << c << ", " << d << ", " << e << endl;
+
+
     return 0;
 }
