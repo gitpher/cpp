@@ -12,7 +12,7 @@ class Person {
             m_name = name;
         }
         ~Person() {
-
+            cout << m_name << "as a Person is destroyed." << endl;
         }
 
         void sayHello() {
@@ -33,7 +33,7 @@ class Musician : public Person {
             
         }
         ~Musician() {
-            cout << this->getName() << " is destroyed." << endl;
+            cout << this->getName() << "as a Musician is destroyed." << endl;
         }
 
         void setInstrument(string instrument) {
