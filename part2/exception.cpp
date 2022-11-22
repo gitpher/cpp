@@ -13,7 +13,7 @@ int main() {
 
     try {
         if (input < 1 || input > 3) {
-            throw input;
+            throw input; 
         }
 
         cout << num[input -1] << endl;
